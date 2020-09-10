@@ -15,9 +15,9 @@
   - 이 예제에서는 집 값과 집의 크기의 상관 관계를 유추하는 기법  
   - 사진에서 붉은 선 : 모델, X : 데이터
   - 새로운 Data에 대해 예측 (Inference 가능)  
-<img src="/Artificial Intelligence/Capture/3.PNG" width="50%" height="50%">
-
+<img src="/Artificial Intelligence/Capture/3.PNG" width="50%" height="50%">  
 <br/>
+
 ### 2.0.1 Motivating Example  
 -   Parameter : 모델을 결정짓는 중요한 키 값. Ax =b에서 x에 속함.  
 
