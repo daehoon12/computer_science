@@ -9,3 +9,10 @@
 - x1 (x 절편) = slop, x2 (y 절편) = intercept  
 
 ## 2.0 Introduction  
+- Linear Regression (선형 회귀)   
+  - 이 예제에서는 집 값과 집의 크기의 상관 관계를 유추하는 기법  
+  - 사진에서 붉은 선 : 모델, X : 데이터
+  - 새로운 Data에 대해 예측 (Inference 가능)
+  
+### 2.0.1 Motivating Example  
+-   Parameter : 모델을 결정짓는 중요한 키 값. Ax =b에서 x에 속함.
