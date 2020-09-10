@@ -1,5 +1,5 @@
-# SOLID  
-- 이해하기 쉽고, 유연하며, 유지 보수가 쉬운 솦트웨어 개발을 위한 다섯가지 소프트웨어 설계 원칙  
+# 1. SOLID 원칙   
+## S.O.L.I.D : 이해하기 쉽고, 유연하며, 유지 보수가 쉬운 솦트웨어 개발을 위한 다섯가지 소프트웨어 설계 원칙  
 
 ## SRC (Single Responsibility Principle)  
 - Gather together those things that change for the same reason, and separate those things that change for different reasons.  
