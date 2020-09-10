@@ -1,1 +1,4 @@
-# computer_science
+# Machine Learning (기계 학습)  
+- 명시적인 규칙 없이 기계가 데이터로부터 학습하도록 하는 기술
+
+  
