@@ -18,7 +18,7 @@
 
 <br/>
 
-<img src="/Artificial Intelligence/Capture/G" width="50%" height="50%">  
+<img src="/Artificial Intelligence/Capture/3.PNG" width="50%" height="50%">  
 
 ### 2.0.1 Motivating Example  
 -   Parameter : 모델을 결정짓는 중요한 키 값. Ax =b에서 x에 속함.  
