@@ -8,13 +8,16 @@
 - a에 인자가 두개가 있는 이유 : 집 값에 영향을 주는 요인 (집 평수, 방의 수, 지하철과의 거리 등)
 - x1 (x 절편) = slop, x2 (y 절편) = intercept  
 
+<img src="/Artificial Intelligence/Capture/2.PNG" width="50%" height="50%">
+
 ## 2.0 Introduction  
 - Linear Regression (선형 회귀)   
   - 이 예제에서는 집 값과 집의 크기의 상관 관계를 유추하는 기법  
   - 사진에서 붉은 선 : 모델, X : 데이터
   - 새로운 Data에 대해 예측 (Inference 가능)  
-<img src="/Artificial Intelligence/Capture/2.PNG" width="50%" height="50%">
-  
+<img src="/Artificial Intelligence/Capture/3.PNG" width="50%" height="50%">
+
+<br/>
 ### 2.0.1 Motivating Example  
 -   Parameter : 모델을 결정짓는 중요한 키 값. Ax =b에서 x에 속함.  
 
@@ -24,7 +27,7 @@
  
  - Linear Algebra (선형대수학) : 선형식(Ax = b, A는 Matrix, b는 Vector)와 관련, 벡터와 벡터들을 제어하는 규칙  
 
-<img src="/Artificial Intelligence/Capture/3.PNG" width="50%" height="50%">
+
 
  ### 2.0.3 Two important equations in linear algebra  
  - Ax = b (linear equation)  
