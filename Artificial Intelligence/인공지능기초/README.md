@@ -12,7 +12,27 @@
 - Linear Regression (선형 회귀)   
   - 이 예제에서는 집 값과 집의 크기의 상관 관계를 유추하는 기법  
   - 사진에서 붉은 선 : 모델, X : 데이터
-  - 새로운 Data에 대해 예측 (Inference 가능)
+  - 새로운 Data에 대해 예측 (Inference 가능)  
   
 ### 2.0.1 Motivating Example  
--   Parameter : 모델을 결정짓는 중요한 키 값. Ax =b에서 x에 속함.
+-   Parameter : 모델을 결정짓는 중요한 키 값. Ax =b에서 x에 속함.  
+
+### 2.0.2 Linear Algebra  
+ - Algebra (대수학) : 수학적인 기호와 수학적인 기호를 제어하는 학문.  
+ ex) bx +c =0
+ 
+ - Linear Algebra (선형대수학) : 선형식(Ax = b)와 관련, 벡터와 벡터들을 제어하는 규칙  
+ 
+ ### 2.0.3 Two important equations in linear algebra  
+ - Ax = b (linear equation)  
+ - Ax = Tx (eigenvalue equation)  
+ 
+ ### 2.0.4 Why Linear Algebra for ML?
+ - 데이터는 벡터와 행렬로 표현된다.  
+ - 모델은 linear equation (Ax = b)으로 표현이 된다. 
+ 
+ ### 2.0.5 Mathematical Objects in Linear Algebra  
+ - Scalar (R): x  
+ - Vector (R^n): x (x i)
+ - Matrix (R^(m x n)): X (X i,j)  
+ - Tensor (R^(m x n x k)): X (X i,j,k) 
