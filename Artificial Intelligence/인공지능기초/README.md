@@ -21,7 +21,7 @@
  - Algebra (대수학) : 수학적인 기호와 수학적인 기호를 제어하는 학문.  
  ex) bx +c =0
  
- - Linear Algebra (선형대수학) : 선형식(Ax = b)와 관련, 벡터와 벡터들을 제어하는 규칙  
+ - Linear Algebra (선형대수학) : 선형식(Ax = b, A는 Matrix, b는 Vector)와 관련, 벡터와 벡터들을 제어하는 규칙  
  
  ### 2.0.3 Two important equations in linear algebra  
  - Ax = b (linear equation)  
