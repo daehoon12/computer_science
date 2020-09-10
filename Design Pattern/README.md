@@ -1,13 +1,7 @@
 # 1. SOLID 원칙   
 ## S.O.L.I.D : 이해하기 쉽고, 유연하며, 유지 보수가 쉬운 솦트웨어 개발을 위한 다섯가지 소프트웨어 설계 원칙  
 
-
-<img src="/Design Pattern/Capture/1.png" width="50%" height="50%">
-<img src="/Capture/2.png" width="50%" height="50%">
-<img src="/Capture/3.png" width="50%" height="50%">
-<img src="/Capture/4.png" width="50%" height="50%">
-<img src="/Capture/5.png" width="50%" height="50%">
-<img src="/Capture/6.png" width="50%" height="50%">
+<img src="/Design Pattern/Capture/6.png" width="50%" height="50%">
 
 ## SRC (Single Responsibility Principle)  
 - Gather together those things that change for the same reason, and separate those things that change for different reasons.  
@@ -20,6 +14,10 @@
 - load() : 파일에서 Book 정보를 읽어서 멤버 변수에 저장  
 - show() : 콘솔 화면에 해당 객체의 정보를 보임  
 
+<img src="/Design Pattern/Capture/1.png" width="50%" height="50%">
+<img src="/Design Pattern/Capture/2.png" width="50%" height="50%">
+<img src="/Design Pattern/Capture/3.png" width="50%" height="50%">
+
 <br/>  
 
 ## OCP (Open-Closed Principle)
@@ -29,6 +27,8 @@
 - BookManager.load() 함수  
 - BookDataLoader 클래스는 파일에서 데이터를 입력 받음  
 - BookDataLoaderFromDB  
+<img src="/Design Pattern/Capture/4.png" width="50%" height="50%">
+<img src="/Design Pattern/Capture/5.png" width="50%" height="50%">
 
 <br/>
 
@@ -38,4 +38,6 @@
 
 ### Example
 - 정사각형은 사각형의 특별한 종류  
-- 상속으로 처리
+- 상속으로 처리  
+
+<img src="/Design Pattern/Capture/6.png" width="50%" height="50%">
