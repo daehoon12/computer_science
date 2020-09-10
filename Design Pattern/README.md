@@ -32,9 +32,9 @@
 - 정사각형은 사각형의 특별한 종류  
 - 상속으로 처리
 
-<img src="/Capture/1.PNG" width="50%" height="50%">
-<img src="/Capture/2.PNG" width="50%" height="50%">
-<img src="/Capture/3.PNG" width="50%" height="50%">
-<img src="/Capture/4.PNG" width="50%" height="50%">
-<img src="/Capture/5.PNG" width="50%" height="50%">
-<img src="/Capture/6.PNG" width="50%" height="50%">
+<img src="/Capture/1.png" width="50%" height="50%">
+<img src="/Capture/2.png" width="50%" height="50%">
+<img src="/Capture/3.png" width="50%" height="50%">
+<img src="/Capture/4.png" width="50%" height="50%">
+<img src="/Capture/5.png" width="50%" height="50%">
+<img src="/Capture/6.png" width="50%" height="50%">
