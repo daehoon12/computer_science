@@ -32,16 +32,23 @@
  - Ax = b (linear equation)  
  - Ax = Tx (eigenvalue equation)  
  
- ### 2.0.4 Why Linear Algebra for ML?
+### 2.0.4 Why Linear Algebra for ML?
  - 데이터는 벡터와 행렬로 표현된다.  
  - 모델은 linear equation (Ax = b)으로 표현이 된다. 
  
- ### 2.0.5 Mathematical Objects in Linear Algebra  
+### 2.0.5 Mathematical Objects in Linear Algebra  
  - Scalar (R): x  
  - Vector (R^n): x (x i)
  - Matrix (R^(m x n)): X (X i,j)  
  - Tensor (R^(m x n x k)): X (X i,j,k) 
  
- ### 2.1.1 Vectors  
- 
- 
+### 2.1.1 Vectors   
+- In Computer Science, Vectors is list of numbers.  
+- 주로 Column Vector 사용.  
+
+### 2.1.2 Vector Space  
+- vector들의 Set.  
+- 실수에서 덧셈과 스칼라 곱에 닫혀있다. (ex 실수 + 실수 = 실수 -> 덧셈에 대해 닫혀있다.)  
+
+#### Polynomials are vectors? (다항식도 벡터니?)  
+(사진)
