@@ -8,6 +8,7 @@
 - a : house size, b : price  (data)  
 - a에 인자가 두개가 있는 이유 : 집 값에 영향을 주는 요인 (집 평수, 방의 수, 지하철과의 거리 등)
 - x1 (x 절편) = slop, x2 (y 절편) = intercept  
+- In 기계 학습, a,b : Date example, x : feature.  
 
 ## 2.0 Introduction  
 - Linear Regression (선형 회귀)   
@@ -45,10 +46,28 @@
 ### 2.1.1 Vectors   
 - In Computer Science, Vectors is list of numbers.  
 - 주로 Column Vector 사용.  
+(사진)  
 
 ### 2.1.2 Vector Space  
 - vector들의 Set.  
 - 실수에서 덧셈과 스칼라 곱에 닫혀있다. (ex 실수 + 실수 = 실수 -> 덧셈에 대해 닫혀있다.)  
 
 #### Polynomials are vectors? (다항식도 벡터니?)  
-(사진)
+(사진)  
+
+### 2.1.3 Matrices  
+(사진)  
+#### 가우스, 조던 소거법  
+- 피벗 성분이 있는 열의 나머지 성분은 전부 0 이여야 한다.  
+- 가우스 소거법 혹은 가우스-조던 소거법에서 두 행의 위치를 서로 바꿀 수 있다.  
+- [A|I] -> [I|A(-1)]  
+
+#### Symmetric Matrix
+- A는 Square Matrix  
+- A = A(T)  
+- A - XX(T) -> A(T)= (XX(T))T -> X(T)X  
+
+#### Positive Definite Matrix  
+- Symmetric Matrix A는 X(t)Ax (스칼라 값)> 0을 만족하면, A는 **Positive definite**하다. (단 벡터 x는 0이 아니다.)  
+-  Symmetric Matrix A는 X(t)Ax (스칼라 값)>= 0을 만족하면, A는 **Positive semidefinite**하다. (단 벡터 x는 0이 아니다.)  
+- 제곱 꼴로 만들어서 무조건 양수가 나오는 식이 만들어지면 조건을 만족, 반례가 하나라도 있으면 만족하지 않는다.
