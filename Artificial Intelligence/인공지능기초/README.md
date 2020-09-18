@@ -41,3 +41,7 @@
  - Vector (R^n): x (x i)
  - Matrix (R^(m x n)): X (X i,j)  
  - Tensor (R^(m x n x k)): X (X i,j,k) 
+ 
+ ### 2.1.1 Vectors  
+ 
+ 
