@@ -61,5 +61,5 @@ building, room_number -> super key -> candidate key
 
 - 합집합, 교집합, 차집합 : 두 ralation의 속성이 같아야 사용이가능하다.
 
-ex)
+- Example  
 <img src="/Database/캡처/6.png" width="50%" height="50%">  
