@@ -49,12 +49,16 @@ building, room_number -> super key -> candidate key
 ## Relational Algebra (관계 대수)  
 - Selection (선택 연산) : 선택 조건을 만족하는 Ralation의 tuples을 출력
 <img src="/Database/캡처/2.png" width="50%" height="50%">  
+
 - Projection (추출 연산) : Relation에서 선택된 attributes를 출력
 <img src="/Database/캡처/3.png" width="50%" height="50%">  
+
 - Natural Join (자연 조인) : 같은 이름을 가지고 있는 attributes에서 두 ralations이 같은 값을 가지고 있는 tuples의 쌍을 출력  
 <img src="/Database/캡처/4.png" width="50%" height="50%">  
+
 - Cartesian Product (카티션 곱) : 두 relations부터 가능한 모든 tuple의 쌍을 출력한다.  
 <img src="/Database/캡처/5.png" width="50%" height="50%">   
+
 - 합집합, 교집합, 차집합 : 두 ralation의 속성이 같아야 사용이가능하다.
 
 ex)
