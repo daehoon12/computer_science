@@ -63,3 +63,49 @@ building, room_number -> super key -> candidate key
 
 - Example  
 <img src="/Database/캡처/6.png" width="50%" height="50%">  
+
+# SQL  
+
+## SQL Data Definition  
+- Data -definition Language (DDL) : Relation Schema를 정의, 수정하거나 Relation을 삭제할 수 있다.  
+- Type : char(n), varchar(n) {String} (varchar는 데이터 낭비를 줄일 수 있다.) |  int, samllint {Integer} | real, double precision {Floating Point}   
+
+- create table : relation을 정의
+(사진)  
+- insert : relation의 속성마다 값을 넣어줌  
+(사진)
+- alter table : 속성을 추가하거나 삭제할 때 사용  
+- drop table r : 모든 튜플과 스키마를 삭제  
+- delete from r : 모든 튜플 값만 삭제, relation은 남는다.  
+
+
+## SQL Queries  
+- select : Attribute 
+- from : Relation  
+- where : 조건
+
+### The from Clause  
+- from은 카티션 곱 연산의 결과를 가져온다.  
+- from instructor, teaches를 실행한 결과
+(사진)
+- 카티션 곱은 유용하지 않으므로 whwre 절을 이용해 Join 연산을 해야한다.
+(사진)
+
+### Additional Basic Operations  
+- as 절로 이름을 새로 바꿀 수 있다.  
+- percent (%) : %로 둘러쌓인 string의 속성 값을 찾아줌. 사용 할 때는 like 절을 이용  
+  ex) where name like '%in%'  
+- order by 문 : 한가지 attribute를 기준으로 오름차순 or 내림차순으로 정렬 (ascending이 default)  
+- between 절 : 비교 절
+  
+### Set Operation
+- Union  
+- Intersect  
+- Except  
+
+### Aggregate Functions  
+- select 문에 표기  
+- avg,min,max 등 다양한 함수가 있다.  
+- group by 문 : 그룹별로 그룹핑을 한다. 보통 그룹핑을 한뒤 함수를 사용해 특정한 값을 구함
+ (단 함수를 제외한 select 문에 있는 attribute들은 group by 문에도 동일하게 있어야 한다.)    
+- Having 절 : 그룹화가 된 후에 조건절 (avg, min, max같은 함수들에 조건을 넣을 때 사용 한다.)  
