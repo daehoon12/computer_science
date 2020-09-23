@@ -1,5 +1,5 @@
 # Introduction  
-
+<img src="/Database/캡처/1.png" width="50%" height="50%">
 ## Database : 데이터의 조직화된 모음 (An organized collection of data)  
 
 ## Database Management Systems (DBMSs) : 유저와 데이터베이스를 소통할 수 있게 하는 소프트웨어
