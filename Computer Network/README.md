@@ -20,7 +20,8 @@
 ### IP Address : Host나 Router 장비의 인터페이스에 할당된 주소.
 
 - 주소 공간을 5개의 클래스로 분류
-<img src="/Computer Network/Capture/1.PNG" width="50%" height="50%">
+<img src="/Computer Network/Capture/1.PNG" width="50%" height="50%">  
+
 #### Subnet Mask : 네트워크 주소를 조금 더 효율적으로 할당하고자 나온 방법
 - Net Id : 네트워크에서 각 네트워크를 구분하기 위한 주소  
 - Host Id : 각 네트워크 안에서 장비를 구분하기 위한 주소  
