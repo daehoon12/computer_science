@@ -15,5 +15,5 @@
 - High-level Language (C or C++)  
 - 바로 System call을 사용하기 보다 Application Programming Interface (API)를 통해서 프로그램에 접근하게 해줌. API는 보통 Library 형태로 제공한다.  
 
-(사진)  
-(사진) 
+<img src="/Operating System/캡처/1.png" width="50%" height="50%">
+<img src="/Operating System/캡처/2.png" width="50%" height="50%">
