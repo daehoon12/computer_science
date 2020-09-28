@@ -17,3 +17,17 @@
 
 <img src="/Operating System/캡처/1.png" width="50%" height="50%">
 <img src="/Operating System/캡처/2.png" width="50%" height="50%">
+
+## OS Design and Implementation  
+
+### OS's Goals  
+- Users goals : 사용하기 편리, 쉽게 배움, 신뢰성, 안전, 빠름  
+- System goals : 디자인, 유지보수, 구현이 쉽고, flexible, 에러 적고, 효율적  
+
+
+### Mechanism and Policy
+- Policy : 무엇을 할거냐  (What)  
+- Mechanism : 결과물을 얻기위해 수행하는 일련의 기술, 프로세스 (How)   
+ex) 타이머를 통한 인터럽트 발생 구조 -> Mechanism,  타이머를 얼마나 오랫동안 설정할 지를 결정하는 것 -> Policy  
+
+
