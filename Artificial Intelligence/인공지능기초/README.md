@@ -122,6 +122,8 @@ linear dependent
 ## 2.3 Linear Equations  
 
 ### 2.3.1 Linear Regression Example  
+
+※ **데이터를 잘 표현하는 x1과 x2의 근사 값을 찾는 것이 Linear Regreesion의 목적**  
 a11*x1 + x2 = b1  
 
 a21*x1 + x2 = b2  
@@ -129,5 +131,9 @@ a21*x1 + x2 = b2
 a31*x1 + x2 = b3  
 ex) ai1 = 집의 i번째 크기, bi = i번째 집의 가격  
 - A,b의 값은 주어짐  
-- 데이터를 잘 표현하는 x1과 x2의 근사 값을 찾는 것이 Linear Regreesion의 목적이 된다.  
+- 데이터의 개수는 최소 4개 이상이어야 예측 가능하다.  
+- linear equation Ax = b을 푸는 것.  
+- 또 다른 attribute(feature)을 추가할 수 있음. (지하철과의 거리)  
+(사진)
 
+### 2.3.2 Linear Equations
