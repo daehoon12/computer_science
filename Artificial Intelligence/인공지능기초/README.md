@@ -122,6 +122,10 @@ linear dependent
 ## 2.3 Linear Equations  
 
 ### 2.3.1 Linear Regression Example  
-a11*x1 + x2 = b1    
+a11*x1 + x2 = b1  
+
 a21*x1 + x2 = b2  
+
 a31*x1 + x2 = b3  
+
+- 데이터를 잘 표현하는 x1과 x2의 근사 값을 찾는 것이 Linear Regreesion의 목적이 된다.  
