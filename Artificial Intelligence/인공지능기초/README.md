@@ -88,10 +88,10 @@
 - Basis : 가장 적은 벡터로 V를 Span하는 것.  
 
 #### Example
-(사진)  
+<img src="/Artificial Intelligence/Capture/8.png" width="50%" height="50%"> 
 
 #### Span의 기하학적인 의미
-(사진)  
+<img src="/Artificial Intelligence/Capture/9.png" width="50%" height="50%"> 
 R^2 = 2개의 벡터가 span  
 R^3 = 3개의 벡터가 span  
 Span하면 모든 벡터를 좌표에 표현할 수 있다.  
@@ -103,13 +103,13 @@ Span하면 모든 벡터를 좌표에 표현할 수 있다.
 - A가 **Full Rank** 이면 **역행렬 (Invertible)** 존재  
 
 #### Example  
-(사진)  
+<img src="/Artificial Intelligence/Capture/10.png" width="50%" height="50%"> 
 1. Linear independent를 따져봄.  
 2. x1=x2=x3=0 뿐이면 linear independent하다.  
 3. x3 = -x1 = -x2 이므로 liear independent하지 않다.  
 4. 어떤 하나의 column vector가 2개의 column vector로 표현 가능 or linear independent한 벡터들을 찾는다.  
 5. Rank(A) = 2  
 
-(사진)  
+<img src="/Artificial Intelligence/Capture/11.png" width="50%" height="50%"> 
 linear independent  
 linear dependent
