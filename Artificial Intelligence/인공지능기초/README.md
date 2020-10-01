@@ -137,3 +137,19 @@ ex) ai1 = 집의 i번째 크기, bi = i번째 집의 가격
 (사진)
 
 ### 2.3.2 Linear Equations
+- complete (m == n)  
+- undercomplete (m > n) // Skinny  -> Ax = b
+- overcomplete (m < n) // Fat  
+
+### 2.3.3 Range Space and Null Space  
+
+#### Example
+
+R(A) : [0,0]  
+N(A) : x1,x2는 모든 실수  
+
+R(B) : [x1,0]  
+N(B) : : x1은 0, x2는 모든 값  [0,x2]  
+
+### 2.4.4 Linear Algebraic Equations  
+- **Ax = b** exists if and only if **b ( R(A)**    
