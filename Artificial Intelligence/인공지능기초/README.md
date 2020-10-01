@@ -57,6 +57,7 @@
 
 ### 2.1.3 Matrices  
 <img src="/Artificial Intelligence/Capture/6.png" width="50%" height="50%"> 
+
 #### 가우스, 조던 소거법  
 - 피벗 성분이 있는 열의 나머지 성분은 전부 0 이여야 한다.  
 - 가우스 소거법 혹은 가우스-조던 소거법에서 두 행의 위치를 서로 바꿀 수 있다.  
@@ -116,3 +117,8 @@ Span하면 모든 벡터를 좌표에 표현할 수 있다.
 
 linear independent  
 linear dependent
+
+
+## 2.3 Linear Equations  
+
+### 2.3.1 Linear Regression Example  
