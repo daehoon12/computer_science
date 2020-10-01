@@ -71,7 +71,7 @@
 - Symmetric Matrix A는 X(t)Ax (스칼라 값)> 0을 만족하면, A는 **Positive definite**하다. (단 벡터 x는 0이 아니다.)  
 -  Symmetric Matrix A는 X(t)Ax (스칼라 값)>= 0을 만족하면, A는 **Positive semidefinite**하다. (단 벡터 x는 0이 아니다.)  
 - 제곱 꼴로 만들어서 무조건 양수가 나오는 식이 만들어지면 조건을 만족, 반례가 하나라도 있으면 만족하지 않는다.
-
+(사진)
 ## 2.2 Linear independence & rank  
 - a(1)c(1) + a(2)c(2)+ .... + a(k)c(k)= 0을 만족하는 상수 a(1),a(2)...a(k)가 모두 0이면 그 식은 linearly independent (선형 독립, 1차 독립)이다.
 
@@ -80,3 +80,15 @@
 - A. 어떤 linear independent한 벡터가 있다면, 그 벡터들의 linear sum을 통해 그 공간에 어떤 벡터의 표현이 가능하다.  
 - Q. Linear independence의 기하학적인 의미  
 - A. <img src="/Artificial Intelligence/Capture/7.png" width="50%" height="50%"> 
+
+### 2.2.4 Span & Basis  
+- Span(A) : A의 벡터의 linear Sum들의 결과들을 모아놓은 것.  
+- V = Span(A) : V의 모든 벡터는 A 벡터들의 linear sum으로 표현이 가능하다.  
+- A가 꼭 independent([1,0], [0,1]) 일 필요 없다.  
+- Basis : 가장 적은 벡터로 V를 Span하는 것.  
+
+#### Example
+(사진)  
+
+#### Span의 기하학적인 의미
+(사진)
