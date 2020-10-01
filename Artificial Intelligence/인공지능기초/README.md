@@ -92,6 +92,7 @@
 
 #### Span의 기하학적인 의미
 <img src="/Artificial Intelligence/Capture/9.png" width="50%" height="50%"> 
+
 R^2 = 2개의 벡터가 span  
 R^3 = 3개의 벡터가 span  
 Span하면 모든 벡터를 좌표에 표현할 수 있다.  
@@ -104,6 +105,7 @@ Span하면 모든 벡터를 좌표에 표현할 수 있다.
 
 #### Example  
 <img src="/Artificial Intelligence/Capture/10.png" width="50%" height="50%"> 
+
 1. Linear independent를 따져봄.  
 2. x1=x2=x3=0 뿐이면 linear independent하다.  
 3. x3 = -x1 = -x2 이므로 liear independent하지 않다.  
@@ -111,5 +113,6 @@ Span하면 모든 벡터를 좌표에 표현할 수 있다.
 5. Rank(A) = 2  
 
 <img src="/Artificial Intelligence/Capture/11.png" width="50%" height="50%"> 
+
 linear independent  
 linear dependent
