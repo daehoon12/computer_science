@@ -122,3 +122,6 @@ linear dependent
 ## 2.3 Linear Equations  
 
 ### 2.3.1 Linear Regression Example  
+a11*x1 + x2 = b1    
+a21*x1 + x2 = b2  
+a31*x1 + x2 = b3  
