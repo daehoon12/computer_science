@@ -134,7 +134,8 @@ ex) ai1 = 집의 i번째 크기, bi = i번째 집의 가격
 - 데이터의 개수는 최소 4개 이상이어야 예측 가능하다.  
 - linear equation Ax = b을 푸는 것.  
 - 또 다른 attribute(feature)을 추가할 수 있음. (지하철과의 거리)  
-(사진)
+
+<img src="/Artificial Intelligence/Capture/12.png" width="50%" height="50%"> 
 
 ### 2.3.2 Linear Equations
 - complete (m == n)  
@@ -144,6 +145,8 @@ ex) ai1 = 집의 i번째 크기, bi = i번째 집의 가격
 ### 2.3.3 Range Space and Null Space  
 
 #### Example
+
+<img src="/Artificial Intelligence/Capture/13.png" width="50%" height="50%"> 
 
 R(A) : [0,0]  
 N(A) : x1,x2는 모든 실수  
