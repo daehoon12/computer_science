@@ -6,4 +6,4 @@
 - FrameWindow (A) : Window 생성, 닫기 등 윈도우에 관한 기능들  
 
 ## Interface  
-Observer : 알림을 구현한 update 메소드가 들어 있음.  
+- Observer : 알림을 구현한 update 메소드가 들어 있음.  
