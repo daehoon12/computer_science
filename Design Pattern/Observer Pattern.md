@@ -18,10 +18,12 @@
 - 호텔의 모닝콜 서비스  
 
 ### Class Diagram
-(사진)
+
+<img src="/Design Pattern/Capture/7.PNG" width="50%" height="50%">
 
 ### Sequence Diagram  
-(사진)
+
+<img src="/Design Pattern/Capture/8.PNG" width="50%" height="50%">
 
 
 ## Loose Coupling  
