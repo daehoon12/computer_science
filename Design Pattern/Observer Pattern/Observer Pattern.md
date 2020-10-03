@@ -17,6 +17,13 @@
 - 뉴스  
 - 호텔의 모닝콜 서비스  
 
+### Loose Coupling  
+- 느슨한 결합, 상호작용을 하긴 하지만 서로에 대해 잘 모른는 것  
+- Subject와 Observer간 Loose Coupling이 만들어짐  
+ 
+## 구현
+- 옵저버 패턴을 이용해서 쓰레드에서 생성되는 소수를 두 개 옵저버 GUI 화면에 출력하는 프로그램을 작성  
+
 ### Class Diagram
 
 <img src="/Design Pattern/Capture/10.png" width="50%" height="50%">
@@ -26,7 +33,3 @@
 <img src="/Design Pattern/Capture/11.png" width="50%" height="50%">
 
 
-## Loose Coupling  
-- 느슨한 결합, 상호작용을 하긴 하지만 서로에 대해 잘 모른는 것  
-- Subject와 Observer간 Loose Coupling이 만들어짐  
- 
