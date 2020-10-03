@@ -19,11 +19,11 @@
 
 ### Class Diagram
 
-<img src="/Design Pattern/Capture/7.PNG" width="50%" height="50%">
+<img src="/Design Pattern/Capture/10.PNG" width="50%" height="50%">
 
 ### Sequence Diagram  
 
-<img src="/Design Pattern/Capture/8.PNG" width="50%" height="50%">
+<img src="/Design Pattern/Capture/11.PNG" width="50%" height="50%">
 
 
 ## Loose Coupling  
