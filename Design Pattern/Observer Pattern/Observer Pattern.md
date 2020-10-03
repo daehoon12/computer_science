@@ -29,3 +29,4 @@
 ## Loose Coupling  
 - 느슨한 결합, 상호작용을 하긴 하지만 서로에 대해 잘 모른는 것  
 - Subject와 Observer간 Loose Coupling이 만들어짐  
+ 
