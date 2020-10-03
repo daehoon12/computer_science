@@ -6,4 +6,4 @@
 스트래티지 패턴을 이용해서 파일 속성을 다양한 형태로 비교해서 정렬해서 출력할 수 있는 프로그램을 작성할 것 
 
 ### Class Diagram
-(사진)
+<img src="/Design Pattern/Capture/9.PNG" width="50%" height="50%">
