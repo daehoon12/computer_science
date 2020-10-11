@@ -110,7 +110,7 @@ Span하면 모든 벡터를 좌표에 표현할 수 있다.
 1. Linear independent를 따져봄.  
 2. x1=x2=x3=0 뿐이면 linear independent하다.  
 3. x3 = -x1 = -x2 이므로 liear independent하지 않다.  
-4. 어떤 하나의 column vector가 2개의 column vector로 표현 가능 or linear independent한 벡터들을 찾는다.  
+4. 어떤 하나의 column vector가 다른 2개의 column vector로 표현 가능 or linear independent한 벡터들을 찾는다. (찾으면 Rank는 2)   
 5. Rank(A) = 2  
 
 <img src="/Artificial Intelligence/Capture/11.png" width="50%" height="50%"> 
