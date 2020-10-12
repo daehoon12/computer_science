@@ -156,3 +156,4 @@ N(B) : : x1은 0, x2는 모든 값  [0,x2]
 
 ### 2.4.4 Linear Algebraic Equations  
 - **Ax = b** exists if and only if **b ( R(A)**    
+- B가 A의 Range Space 일때 Ax = b가 존재한다.  
