@@ -86,10 +86,10 @@ ex) R^2의 두 벡터(1,0), (0,1)이 있다고 가정.
 - A. <img src="/Artificial Intelligence/Capture/7.png" width="50%" height="50%"> 
 
 ### 2.2.4 Span & Basis  
-- Span(A) : A의 벡터의 linear Sum들의 결과들을 모아놓은 것.  
-- V = Span(A) : V의 모든 벡터는 A 벡터들의 linear sum으로 표현이 가능하다.  
+- Span : 어느 벡터공간의 vector a1v1 + a2v2 + ... + anvn = v가 되는 스칼라 a1,a2... an이 존재할 경우.   
+- V = Span(A) : V의 모든 벡터는 A 벡터들의 linear combination으로 표현이 가능하다.  
 - A가 꼭 independent([1,0], [0,1]) 일 필요 없다.  
-- Basis : 가장 적은 벡터로 V를 Span하는 것.  
+- Basis : Linear Independent 하면서 V를 Span 할 때, V를 basis라고 한다.  
 
 #### Example
 <img src="/Artificial Intelligence/Capture/8.png" width="50%" height="50%"> 
