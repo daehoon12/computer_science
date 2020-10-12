@@ -76,6 +76,9 @@
 ## 2.2 Linear independence & rank  
 - a(1)c(1) + a(2)c(2)+ .... + a(k)c(k)= 0을 만족하는 상수 a(1),a(2)...a(k)가 모두 0이면 그 식은 linearly independent (선형 독립, 1차 독립)이다.
 
+ex) R^2의 두 벡터(1,0), (0,1)이 있다고 가정.  
+    C1(1,0) + C2(0,1) = (0,0)을 만족하는 c1과 c2는 0밖에 없으므로 R^2의 두 벡터 (1,0), (0,1)은 Linearl Independent.  
+    
 ### 2.2.2. Linear independence & Machine Learning  
 - Q. 왜 linear independence가 Machine Learning에서 중요한가?   
 - A. 어떤 linear independent한 벡터가 있다면, 그 벡터들의 linear sum을 통해 그 공간에 어떤 벡터의 표현이 가능하다.  
