@@ -146,7 +146,8 @@ ex) ai1 = 집의 i번째 크기, bi = i번째 집의 가격
 - overcomplete (m < n) // Fat  
 
 ### 2.3.3 Range Space and Null Space  
-
+- Range Space (Column Space) Ax = b를 만족하는 x  
+- Null Space = Ax = 0을 만족하는 x  
 #### Example
 
 <img src="/Artificial Intelligence/Capture/13.png" width="50%" height="50%"> 
