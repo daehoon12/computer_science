@@ -39,3 +39,11 @@
 - 상속으로 처리  
 
 <img src="/Design Pattern/Capture/6.png" width="50%" height="50%">
+
+
+## ISP (Interface Segregation Principle)  
+- 하나의 클라이언트만을 위한 인터페이스 보다는 여러개의 클라이언트를 위한 인터페이스가 낫다.  
+
+## DIP (Dependency Inversion Principle)  
+- 기능을 직접 구현한 클래스나 함수 보다는, **추상 클래스나 인터페이스를 사용하는 코드**를 작성해야 한다.  
+- 기능을 직접 구현한 클래스나 하무는 변경될 가능성이 높음.
