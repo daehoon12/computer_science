@@ -1,0 +1,13 @@
+## 익명 클래스  
+- 인터페이스를 구현하기 위해 해당 인터페이스를 구현할 클래스를 생성하야 하는데 일회성이고 재사용할 필요가 없을 때 사용  
+
+### Example  
+interface Comparable {  
+    int compareTo(Object o1, Object o2);  
+}  
+
+public class Sorter {  
+    Comparable compare;  
+    compare.compareTo(o1, o2(  
+}  
+
