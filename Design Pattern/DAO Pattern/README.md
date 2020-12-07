@@ -11,3 +11,6 @@
 
 ## Diagram  
 ![image](https://user-images.githubusercontent.com/32921115/101309926-e4342200-3890-11eb-8198-108361b7add5.png)
+
+## Homework  
+![image](https://user-images.githubusercontent.com/32921115/101310412-29a51f00-3892-11eb-9781-91986b38d1e4.png)
