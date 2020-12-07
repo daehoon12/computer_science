@@ -14,12 +14,12 @@ public class SecondOperend implements State {
     @Override
     public void processOperator(char ch) {
         if (ch == '=') {
-            this.printOutResult();
+            this.printOutResult(); // 결과값 출력
         }
     }
 
     @Override
-    public void printOutResult() {
+    public void printOutResult() { // 결과 처리 methd
         int operand1 = calc.getOperand1();
         int operand2 = calc.getOperand2();
         char operator = calc.getOper();
