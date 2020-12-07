@@ -18,4 +18,6 @@
 
 ### Homework  
 ![image](https://user-images.githubusercontent.com/32921115/101307108-0c6c5280-388a-11eb-8212-9e599d5cfa96.png)  
+
+#### State & Transition  
 ![image](https://user-images.githubusercontent.com/32921115/101307117-168e5100-388a-11eb-94c1-66f3525b4c30.png)
