@@ -32,3 +32,6 @@
 
 ### Diagram  
 ![image](https://user-images.githubusercontent.com/32921115/101305798-c6fa5600-3886-11eb-896b-9418beaee2f5.png)
+
+### Homework  
+![image](https://user-images.githubusercontent.com/32921115/101305928-0628a700-3887-11eb-98ef-ab02ed6a8cc8.png)
