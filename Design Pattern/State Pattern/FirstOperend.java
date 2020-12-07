@@ -15,7 +15,7 @@ public class FirstOperend implements State { // 사칙연산을 처리하는 Cla
     @Override
     public void processOperator(char ch) {
         calc.setOper(ch); // oper에 ch값 넣음
-        calc.setState(calc.getOperator()); //transit to SecondOperate
+        calc.setState(calc.getOperator()); //transit to Operate
     }
     @Override
     public void printOutResult() {
