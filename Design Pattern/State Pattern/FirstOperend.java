@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FirstOperend implements State {
+public class FirstOperend implements State { // 사칙연산을 처리하는 Class
     CalcV1 calc;
     Scanner scanner = new Scanner(System.in);
     public FirstOperend(CalcV1 calc) {
@@ -14,8 +14,8 @@ public class FirstOperend implements State {
 
     @Override
     public void processOperator(char ch) {
-        calc.setOper(ch);
-        calc.setState(calc.getOperator());
+        calc.setOper(ch); // oper에 ch값 넣음
+        calc.setState(calc.getOperator()); //transit to SecondOperate
     }
     @Override
     public void printOutResult() {
