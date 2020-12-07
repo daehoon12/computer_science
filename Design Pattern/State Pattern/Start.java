@@ -10,7 +10,7 @@ public class Start implements State {
     public void processNumber(String ch) { // 정수를 Ooperand1에 set 해주고 FirstOperent State로 바꿈
         int operand1 = Integer.parseInt("" + ch);
         calc.setOperand1(operand1);
-        calc.setState(calc.getFirstOperend()); // Translate to FirstOperent
+        calc.setState(calc.getFirstOperend()); // transit to  FirstOperent
     }
 
     @Override
