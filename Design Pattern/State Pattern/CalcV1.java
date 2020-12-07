@@ -1,5 +1,5 @@
-import java.util.Scanner;
-
+import java.util.Scanner; 
+// 이 녀석은 계산기를 구현한 코드다.
 public class CalcV1 {
     private enum STATES { STATE_START, STATE_FIRST_OPERAND, STATE_SECOND_OPERAND, STATE_OPERATOR };
     Scanner scanner;
