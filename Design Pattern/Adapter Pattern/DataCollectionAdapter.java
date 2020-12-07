@@ -2,7 +2,7 @@ import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class DataCollectionAdapter<T> implements DataCollection{
+public class DataCollectionAdapter<T> implements DataCollection{ // 인터페이스를 Adapt
     ArrayList<T> arraylist = new ArrayList<T>();
     private int length=0;
 
