@@ -1,4 +1,4 @@
-# Adapter Pattern  
+# Adapter Pattern, Iterator Pattern  
 
 ## Adapter Pattern  
 - 객체를 감싸는 역할을 함.  
@@ -32,6 +32,27 @@
 
 ### Diagram  
 ![image](https://user-images.githubusercontent.com/32921115/101305798-c6fa5600-3886-11eb-896b-9418beaee2f5.png)
+
+## Iterator Pattern  
+
+### 문제  
+- 자료 구조 클래스의 요소를 한 개씩 접근하는 API가 서로 다름  
+
+### 해결방안  
+- Iterator 객체를 중간에 넣음  
+
+### Diagram  
+![image](https://user-images.githubusercontent.com/32921115/101309183-1a70a200-388f-11eb-9b68-1e8e1b8e5e45.png)
+- iterator() : Iterator에 대한 자료형을 반환  
+- hasNext() : 요소가 더 존재하는지 확인. true or false 반환  
+- next() : 다음 요소 가져오기  
+
+### Generic  
+- ArrayList를 만들었을 때 List에 자료형을 지정해 사용하도록 함  
+- 굳이 여러 가지를 지원해야 하면 자료형을 Object로 지정하면 된다.  
+
+* 과제에 Iterator Pattern 예제가 구현되어 있으니 한번 볼 것
+###
 
 ### Homework  
 ![image](https://user-images.githubusercontent.com/32921115/101305928-0628a700-3887-11eb-98ef-ab02ed6a8cc8.png)
