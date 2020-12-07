@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class DataCollectionAdapterIterator implements Iterator {
+public class DataCollectionAdapterIterator implements Iterator { // Iterator 인터페이스를 Adapt
     private int idx;
     private DataCollectionAdapter arraylist;
     public DataCollectionAdapterIterator(DataCollectionAdapter arraylist){
