@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Operator implements State  {
+public class Operator implements State  { // 두번째 숫자를 입력받음
     CalcV1 calc;
     Scanner scanner = new Scanner(System.in);
     public Operator(CalcV1 calc){
         this.calc = calc;
     }
     @Override
-    public void processNumber(String ch) {
+    public void processNumber(String ch) { 
         int operand2 = Integer.parseInt("" + ch);
         calc.setOperand2(operand2);
-        calc.setState(calc.getSecondOperend());
+        calc.setState(calc.getSecondOperend()); // transit to SecondOperend
     }
 
     @Override
