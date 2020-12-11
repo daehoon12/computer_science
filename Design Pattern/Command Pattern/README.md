@@ -11,7 +11,8 @@
 ![image](https://user-images.githubusercontent.com/32921115/101300039-8cd58800-3877-11eb-891f-e0efd4384591.png)
 - Command : Receiver를 알고 있고, Receiver의 메소드를 호출, Receiver의 메소드에서 사용되는 Parameter 값들은 Command에 저장됨.  
 - Receiver : 실제 명령(Command) 수행  
-- Invoker : 요청을 받아, 요청을 실행하기 위해 Command 인터페이스를 연결, Command의 인터페이스만 알고 있음.  - Client : 무엇을 요청할지 결정하고, 요청 Command를 Invoker에 넘김.  
+- Invoker : 요청을 받아, 요청을 실행하기 위해 Command 인터페이스를 연결, Command의 인터페이스만 알고 있음.    
+- Client : 무엇을 요청할지 결정하고, 요청 Command를 Invoker에 넘김.  
 
 ### Diagram
 ![image](https://user-images.githubusercontent.com/32921115/101299971-53048180-3877-11eb-89e1-b71017598c83.png)

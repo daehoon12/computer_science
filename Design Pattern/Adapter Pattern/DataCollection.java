@@ -6,3 +6,4 @@ public interface DataCollection<T> {
     int length();
     Iterator createIterator();
 }
+

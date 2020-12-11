@@ -32,3 +32,7 @@
 ## 팩토리 패턴 vs 추상 팩토리 패턴  
  - 추상 팩토리 패턴 : 제품군을 생성하기 위한 인터페이스를 생성 그 인터페이스를 구성하여 사용할수 있게끔 하는 것.  
  - 추상 메소드 패턴 : 하나의 추상클래스에서 추상 메소드를 만들고 서브클래스들이 그 추상메소드를 구현하여 인스턴스를 만들게끔 하는 것.  
+
+
+![image](https://user-images.githubusercontent.com/32921115/101908045-ce12c280-3bfe-11eb-933a-03b369a1e811.png)
+![image](https://user-images.githubusercontent.com/32921115/101908204-1205c780-3bff-11eb-8f8d-61750f59420c.png)
