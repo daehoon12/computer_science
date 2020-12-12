@@ -27,6 +27,6 @@ public class DataCollectionAdapter<T> implements DataCollection{ // 인터페이
 
     @Override
     public Iterator createIterator() {
-        return new DataCollectionAdapterIterator(this);
+        return new DataCollectionAdapterIterator(this); // Adapter에 Iterator 패턴을 넣음.
     }
 }
