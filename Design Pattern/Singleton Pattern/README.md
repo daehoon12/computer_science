@@ -23,3 +23,6 @@
 
 ### DCL 버전의 Singleton  
 - 인스턴스가 생성되어 있는지 확인 후, 생성되어 있지 않았을 때만 동기화를 시킴.  
+
+## Homework  
+![image](https://user-images.githubusercontent.com/32921115/101908045-ce12c280-3bfe-11eb-933a-03b369a1e811.png)
