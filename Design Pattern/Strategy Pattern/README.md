@@ -7,3 +7,6 @@
 
 ### Class Diagram
 <img src="/Design Pattern/Capture/9.PNG" width="50%" height="50%">
+
+## Homework  
+![image](https://user-images.githubusercontent.com/32921115/101973067-96486100-3c78-11eb-809a-341568654daa.png)
