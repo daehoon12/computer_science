@@ -22,3 +22,10 @@
   - 컨트롤러는 모델에게 상태를 변경하라는 요청을 하거나, 뷰를 변경해달라고 요청하는 역할.  
   - 상태가 변경되면 모델에서 뷰에게 그 사실을 알림  
   - 뷰에서 모델한테 상태는 요청  
+
+## Homework  
+- 학생 이름과 번호를 출력하는 프로그램을 MVC Pattern을 이용해 구현하시오  
+
+## Class Diagram  
+![image](https://user-images.githubusercontent.com/32921115/101979345-bf301c80-3c9f-11eb-9efc-0cdd9ba86ee3.png)
+
