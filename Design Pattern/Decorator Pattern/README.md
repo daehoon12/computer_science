@@ -20,6 +20,9 @@
 - ConcreateDecorator : 객체가 장식하고 있는 것을 위한 인스턴스 변수가 있음.  
 - **Decorator는 Component의 기능 및 상태를 확장할 수 있다.**
 
+## 호출  
+![image](https://user-images.githubusercontent.com/32921115/102043287-61bedb80-3e17-11eb-828c-f725b269f014.png)
+
 ## Example  
 ### Diagram  
 - ![image](https://user-images.githubusercontent.com/32921115/102042443-33400100-3e15-11eb-9a7f-43c7e61d24b1.png)
