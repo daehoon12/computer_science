@@ -9,6 +9,9 @@
 ## 결과  
 - 중복되는 코드를 줄임. 유지 보수에 유리함  
 
+## Diagram  
+![image](https://user-images.githubusercontent.com/32921115/102041487-f1ae5680-3e12-11eb-96ce-7a8ce142cbd5.png)
+
 ## Strategy Pattern과 차이점  
 - Strategy는 알고리즘 전체를 위임  
 - Template Method는 상속을 이용해 알고리즘의 일부를 다른 클래스에 맡김.
