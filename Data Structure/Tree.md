@@ -22,8 +22,10 @@
 3. Postorder Traversal (후위 순회) : Root보다 Child를 먼저 방문  
 
 **Example**  
-![image](https://user-images.githubusercontent.com/32921115/103327272-3256d280-4a97-11eb-8587-076395778bac.png)
 
-![image](https://user-images.githubusercontent.com/32921115/103327281-38e54a00-4a97-11eb-80a3-fe8cca9e726f.png)
+![image](https://user-images.githubusercontent.com/32921115/103327272-3256d280-4a97-11eb-8587-076395778bac.png)  
 
-![image](https://user-images.githubusercontent.com/32921115/103327292-47cbfc80-4a97-11eb-9589-4d10b15b1d94.png)
+![image](https://user-images.githubusercontent.com/32921115/103327281-38e54a00-4a97-11eb-80a3-fe8cca9e726f.png)  
+
+![image](https://user-images.githubusercontent.com/32921115/103327292-47cbfc80-4a97-11eb-9589-4d10b15b1d94.png)  
+ 
