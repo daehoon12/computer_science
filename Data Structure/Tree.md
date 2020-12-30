@@ -18,7 +18,7 @@
 
 ### Traversal  
 1. Preorder Traversal (전위 순회): Child Node보다 Root Node를 먼저 방문  
-2. Inorder Traversal (중위 순회 ): 왼쪽, Root, 오른쪽 Child Node 순으로 방문  
+2. Inorder Traversal (중위 순회) : 왼쪽, Root, 오른쪽 Child Node 순으로 방문  
 3. Postorder Traversal (후위 순회) : Root보다 Child를 먼저 방문  
 
 **Example**  
@@ -29,3 +29,8 @@
 
 ![image](https://user-images.githubusercontent.com/32921115/103327292-47cbfc80-4a97-11eb-9589-4d10b15b1d94.png)  
  
+
+## Binary Search Tree  
+- Search를 효율적으로 하기 위한 자료구조  
+- 왼쪽 서브 트리 <= Root <= 오른쪽 서브트리  
+- Inorder Traversal을 하면 오름차순으로 정렬된 값을 얻을 수 있음.  
