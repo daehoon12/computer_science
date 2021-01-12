@@ -33,3 +33,11 @@
 
 - Root Node를 삭제  
 - 제일 마지막 Node를 Root Node로 옮기고, 자신의 우선순위에 맞을 때 까지 Child Node와 자리를 바꾼다.  
+
+## 시간 복잡도  
+- 삽입 삭제 둘다 O(logN)  
+
+## Heap Sort  
+- Heap을 이용해 정렬  
+- 정렬해야 할 n개의 요소들을 **heap에 삽입하고 하나씩 빼서 저장**하면 된다.  
+- O(nlogn)  
