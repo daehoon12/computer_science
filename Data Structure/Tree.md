@@ -51,4 +51,9 @@
 
 ![image](https://user-images.githubusercontent.com/32921115/104396699-892bd400-558e-11eb-8125-d2c15b09f72e.png)
 
-- 삭제하려는 노드가 두개의 서브트리를 갖고 있는 경우  
+- 삭제하려는 노드가 두개의 서브트리를 갖고 있는 경우 (가장 비슷한 값을 가져옴)  
+
+### 가장 비슷한 값?  
+
+![image](https://user-images.githubusercontent.com/32921115/104396764-a5c80c00-558e-11eb-9695-03dac0fac638.png)
+
