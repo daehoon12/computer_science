@@ -57,3 +57,6 @@
 
 ![image](https://user-images.githubusercontent.com/32921115/104396764-a5c80c00-558e-11eb-9695-03dac0fac638.png)
 
+### Time Complex  
+- Best : O(logN) (Balanced Tree)  
+- Worst : O(N) (Unbalanced Tree)  
