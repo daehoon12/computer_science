@@ -34,3 +34,21 @@
 - Search를 효율적으로 하기 위한 자료구조  
 - 왼쪽 서브 트리 <= Root <= 오른쪽 서브트리  
 - Inorder Traversal을 하면 오름차순으로 정렬된 값을 얻을 수 있음.  
+
+### Insert  
+- Search를 먼저 수행한다.  
+- **Search 실패한 위치가 새로운 노드를 삽입하는 위치**  
+
+### Delete  
+
+![image](https://user-images.githubusercontent.com/32921115/104396659-72857d00-558e-11eb-9379-f6c155d9dd12.png)
+
+- 삭제하려는 노드가 단말 노드  
+
+![image](https://user-images.githubusercontent.com/32921115/104396674-7d401200-558e-11eb-8645-6a8030b89253.png)
+
+- 삭제하려는 노드가 하나의 서브트리만 갖고 있는 경우  
+
+![image](https://user-images.githubusercontent.com/32921115/104396699-892bd400-558e-11eb-8125-d2c15b09f72e.png)
+
+- 삭제하려는 노드가 두개의 서브트리를 갖고 있는 경우  
