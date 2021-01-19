@@ -61,3 +61,19 @@
 
 - Best : O(logN) (Balanced Tree)  
 - Worst : O(N) (Unbalanced Tree)  
+
+## AVL Tree 
+- 모든 node의 왼쪽과 오른쪽 sub-Tree의 **높이 차가 1이하**인 Binary Search Tree  
+- Tree가 비균형 상태로 되면 스스로 노드들을 재배치해 Balanced 상태 유지  
+- Insert, Delete 과정에서 Balanced 상태가 깨질 수 있음.  
+- BF : 왼쪽과 오른쪽의 서브트리 높이의 차  
+
+### AVL Tree : Insert  
+
+![image](https://user-images.githubusercontent.com/32921115/105002390-8fc9b800-5a74-11eb-9b0a-0fb976f2bfcf.png)
+
+## 2-3 Tree  
+- 차수가 2 or 3인 노드를 가지는 트리  
+
+![image](https://user-images.githubusercontent.com/32921115/105004516-6fe7c380-5a77-11eb-8590-ad7a336ec2b8.png)
+
