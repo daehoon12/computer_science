@@ -66,7 +66,7 @@
 - 모든 node의 왼쪽과 오른쪽 sub-Tree의 **높이 차가 1이하**인 Binary Search Tree  
 - Tree가 비균형 상태로 되면 스스로 노드들을 재배치해 Balanced 상태 유지  
 - Insert, Delete 과정에서 Balanced 상태가 깨질 수 있음.  
-- BF : 왼쪽과 오른쪽의 서브트리 높이의 차  
+- BF : 왼쪽과 오른쪽의 서브트리 높이의 차, **왼쪽 서브트리 높이 - 오른쪽 서브트리 높이**  
 
 ### AVL Tree : Insert  
 
