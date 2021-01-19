@@ -75,5 +75,7 @@
 ## 2-3 Tree  
 - 차수가 2 or 3인 노드를 가지는 트리  
 
-![image](https://user-images.githubusercontent.com/32921115/105004516-6fe7c380-5a77-11eb-8590-ad7a336ec2b8.png)
+![image](https://user-images.githubusercontent.com/32921115/105004516-6fe7c380-5a77-11eb-8590-ad7a336ec2b8.png)  
+
+
 
