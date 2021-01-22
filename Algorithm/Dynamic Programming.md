@@ -1,4 +1,4 @@
-# Dynamic Programming
+# Dynamic Programming  
 
 ## Dynamic Programming  
 - 복잡한 문제를 간단한 여러 개의 문제로 나누어 푸는 방법  
