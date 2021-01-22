@@ -77,3 +77,48 @@
 - Receiver: ACK를 보냈는데 중간에 lost가 난 상황  
 - Sender : 자신의 Window Size만큼 Frame을 보냄  
 - Sender는 한 개의 ACK도 받지 못해 **TimeOut 이후 다시 맨 처음 0을 Receiver에게 보내는데, Receiver는 3 다음에 오는 0인 줄 알고 Accepted하는 상황이 발생**한다.  
+
+## TCP 신뢰성 있는 데이터 전송  
+- TCP는 비신뢰적인 Network Layer 상위 계층에서 신뢰성있는 데이터 전송하는 서비스를 제공한다.  
+pipeline, cumulative ACK, Time  
+- **타임 아웃이 되거나 중복 ACK**를 받을 시 재전송  
+
+### 재전송 시나리오  
+
+![image](https://user-images.githubusercontent.com/32921115/105446475-88ddb800-5cb5-11eb-93a2-939d69172319.png)
+
+![image](https://user-images.githubusercontent.com/32921115/105446504-97c46a80-5cb5-11eb-89ee-44211be22c50.png)
+
+### 빠른 재전송  
+- 중복 ACK를 사용해 손실된 패킷들을 감지한다.  
+- Sender는 같은 Data에 대해 3개의 중복 ACK를 수신하게 되면, Segment가 누락된 것을 알고 재전송함  
+
+![image](https://user-images.githubusercontent.com/32921115/105446679-f7227a80-5cb5-11eb-85f5-6b23225a8053.png)
+
+## TCP Window Control for Flow Control & Congestion Control  
+
+### Flow Control  
+- Receiver : 수신 버퍼를 가짐  
+- TCP Sender가 대용량의 데이터를 빨리 보내 Receiver의 버퍼를 넘치게 하는 것을 방지함  
+- 데이터 송신의 속도에 따라 rwnd의 값이 늘거나 줄음.  
+- **즉 속도를 매칭시키는 서비스**  
+
+### Congestion  
+- 네트워크가 감당할 수 없을 정도로 **많은 출발지에서 너무 많은 데이터를 너무 빨리 보내는 것**이 원인  
+- **Sender를 억제하는 메커니즘**  
+- Congestion은 패킷 손실 (라우터 버퍼 오버플로우), 큐잉 지연을 초래함  
+
+### Congestion Scenario  
+- 시나리오 1  
+
+![image](https://user-images.githubusercontent.com/32921115/105447188-0d7d0600-5cb7-11eb-9206-602af9093f09.png)  
+
+![image](https://user-images.githubusercontent.com/32921115/105447225-2685b700-5cb7-11eb-8902-d9fe062e15df.png)  
+
+- 시나리오 2  
+
+![image](https://user-images.githubusercontent.com/32921115/105447255-34d3d300-5cb7-11eb-8e87-29ca9a8ec54b.png)  
+
+
+
+
