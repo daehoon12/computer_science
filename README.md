@@ -11,14 +11,14 @@
 [인공지능]: https://github.com/daehoon12/computer_science/tree/master/Artificial%20Intelligence    
 [디자인 패턴]: https://github.com/daehoon12/computer_science/tree/master/Design%20Pattern  
 
-### 자료구조   
-### 알고리즘   
-### 운영 체제   
-### 데이터베이스   
-### 네트워크   
-### 소프트웨어 공학
-### 디자인 패턴   
-### 인공지능   
+### [자료구조]   
+### [알고리즘]   
+### [운영 체제]   
+### [데이터베이스]   
+### [네트워크]   
+### [소프트웨어 공학]  
+### [디자인 패턴]   
+### [인공지능]   
 
 
  
