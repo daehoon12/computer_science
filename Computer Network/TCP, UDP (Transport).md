@@ -117,8 +117,56 @@ pipeline, cumulative ACK, Time
 
 - 시나리오 2  
 
-![image](https://user-images.githubusercontent.com/32921115/105447255-34d3d300-5cb7-11eb-8e87-29ca9a8ec54b.png)  
+![image](https://user-images.githubusercontent.com/32921115/105447290-4917d000-5cb7-11eb-8973-c4da230e3fb8.png)  
 
 
+![image](https://user-images.githubusercontent.com/32921115/105447320-5634bf00-5cb7-11eb-8063-e1b25e48dbda.png)  
+
+![image](https://user-images.githubusercontent.com/32921115/105447339-5b920980-5cb7-11eb-9243-92afecbbb1a0.png)  
+
+![image](https://user-images.githubusercontent.com/32921115/105447355-62b91780-5cb7-11eb-9679-413c8960c8f8.png)  
+
+- Congestion의 원인 : 라우터 버퍼가 차있는 경우 패킷 손실, Sender가 너무 일찍 타임아웃 되면 2개의 복사본을 전송.  
+- 손실된 패킷 + Timeout 때문에 패킷을 재전송(복사본을 포워딩하는데 필요한 링크 대역폭), Congestion 비용이 증가함.  
+
+- 시나리오 3
+
+![image](https://user-images.githubusercontent.com/32921115/105447510-b297de80-5cb7-11eb-8305-88d39a2c5da5.png)  
+
+![image](https://user-images.githubusercontent.com/32921115/105447527-bc214680-5cb7-11eb-992a-8d7f52542adb.png)  
+
+### TCP Congestion Control  
+- TCP는 end-end간의 혼잡제어 방식을 사용  
+
+### TCP Congestion Control : AIMD  
+
+![image](https://user-images.githubusercontent.com/32921115/105447855-69945a00-5cb8-11eb-9328-66baca2342d8.png)  
+
+- 손실이 발생할 때 까지 사용가능한 대역폭을 탐지하면서 전송률 (congestion window size, cwnd)을 증가  
+- additive increase : loss 감지될 때까지 RTT 마다 cwnd를 1MSS만큼 증가  
+- multiplicative decrease : loss 발생 후 cwnd는 반으로 줄임.  
+
+### TCP Congestion Control : Slow Start  
+
+![image](https://user-images.githubusercontent.com/32921115/105447994-bd06a800-5cb8-11eb-897b-ef599c92a0a3.png)  
+
+- 위 그림은 TCP Tahoe 방식  
+- 연결이 시작되면 첫 loss 발생하기 전까지 **전송률을 지수적으로 증가**  
+- 초기 cwnd는 1MSS, 매 RTT마다 2배로 증가한다.  
+- 초기 전송률은 느리지만, 지수적으로 빠르게 증가한다.  
+
+### TCP Congestion Control : TCP Tahoe vs. TCP Reno  
+Q. TimeOut에 의한 Loss  
+- Tahoe든 Reno든 Cwnd는 1MSS로 설정하고, 특정 threshold까지 **지수적으로 증가**, 임계치를 지나면 선형적으로 증가  
+
+Q. 만약 Sender가 3개의 duplicate ACK를 수신했다면?  
+- Tahoe는 손실이 일어나면 항상 cwnd를 1MSS로 설정  
+- Reno는 cwnd를 반으로 줄이고 **cwnd를 선형적으로 증가시키는 Fast Recovery 상태**로 들어감  
+
+### TCP Congestion Control : Example  
+
+![image](https://user-images.githubusercontent.com/32921115/105448494-c6dcdb00-5cb9-11eb-9822-a57100bec023.png)  
+
+- Timeout이 일어나면 둘다 똑같이 cwnd의 크기는 1로 줄음.  
 
 
