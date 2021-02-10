@@ -23,3 +23,10 @@
 - 각 패스에서 리스트의 모든 레코드 n개를 비교하므로 n번의 비교 연산  
 - **O(NlogN)** 의 시간복잡도  
 - **Stability**하며 데이터의 초기 분산 순서에 영향을 덜 받음  
+
+## Quick Sort  
+
+![image](https://user-images.githubusercontent.com/32921115/104397870-fccee080-5590-11eb-931b-69b4a8f406b9.png)
+
+- 위의 그림은 한 번의 Pass  
+
