@@ -13,6 +13,13 @@
 
 ## Merge Sort  
 
-- Stable Sort  
-- 배열을 반으로 쪼개고 (Divide), 각각의 sub-array에 대해 정렬한 뒤 (Conquer), 정렬된 2개의 sub-array를 합친다. (Combine)  
-- O(nlogn)의 시간 복잡도.  
+![image](https://user-images.githubusercontent.com/32921115/104397580-72867c80-5590-11eb-903d-79330d5d55e6.png)
+
+- 리스트를 두 개의 균등한 크기로 분할하고 분할된 부분 리스트를 정렬 (Divide, Conquer 과정)   
+- 정렬한 두 개의 부분 리스트를 합해 전체 리스트를 정렬 (Combine)  
+
+### Time Complex  
+- 크기 n인 리스트를 정확히 균등 분배 -> logN개의 패스  
+- 각 패스에서 리스트의 모든 레코드 n개를 비교하므로 n번의 비교 연산  
+- **O(NlogN)** 의 시간복잡도  
+- **Stability**하며 데이터의 초기 분산 순서에 영향을 덜 받음  
