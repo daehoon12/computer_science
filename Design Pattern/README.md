@@ -47,3 +47,17 @@
 ## DIP (Dependency Inversion Principle)  
 - 기능을 직접 구현한 클래스나 함수 보다는, **추상 클래스나 인터페이스를 사용하는 코드**를 작성해야 한다.  
 - 기능을 직접 구현한 클래스나 하무는 변경될 가능성이 높음.
+
+# 2. 디자인 패턴 종류  
+
+## 2-1. 생성 패턴(Creational Pattern)  
+- 인스턴스를 만드는 절차를 추상화하는 패턴.  
+- Factory, Singleton 등 존재  
+
+## 2-2. 구조 패턴 (Structural Pattern)  
+- 더 큰 구조를 형성하기 위해 어떻게 클래스와 객체를 합성하는가와 관련된 패턴.  
+- Adapter, Decorator, Facade 등  
+
+## 2-3. 행동 패턴(behavioral pattern)  
+- 어떤 처리의 책임을 어느 객체에 할당하는 것이 좋은지, 알고리즘을 어느 객체에 정의하는 것이 좋은지 등을 다루는 패턴  
+- State, Strategym Template Method, Command, Iterator 등  
