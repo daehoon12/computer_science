@@ -37,7 +37,7 @@ IP 주소: 128.119.245.12
 ## HTTP  
 
 ![image](https://user-images.githubusercontent.com/32921115/104991743-cd254a00-5a62-11eb-837d-0b4c3f7e6139.png)
-
+- **World Wide Web에서 정보를 주고 받을 수 있는 프로토콜. 주로 HTML 문서를 주고 받고 80번 Port를 사용**  
 - 웹 어플리케이션 계층 프로토콜  
 - 클라이언트 : Web Object들을 요청하고 받아서 보여주는 웹 브라우저  
 - 서버 : 요청에 응답하여 Object들을 보내는 Web Server  
